@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Beth's Herbal Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Beth's Herbal Journey</h1>
+    <p>Return to the roots. Reclaim your wellness.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+
+  <main class="contact-page">
+    <section class="hero-section">
+      <h2>Get in Touch</h2>
+      <p>I'm here to support you on your herbal wellness journey. Whether you have questions about herbs, want to join a workshop, or are interested in a consultation, I'd love to hear from you.</p>
+    </section>
+
+    <div class="contact-grid">
+      <section class="contact-form-section">
+        <h3>Send Me a Message</h3>
+        <form action="https://formspree.io/f/mwkgyzbb" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="">Please select a topic...</option>
+              <option value="general">General Inquiry</option>
+              <option value="consultation">Wellness Consultation</option>
+              <option value="workshop">Workshop Information</option>
+              <option value="products">Product Questions</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </section>
+
+      <section class="contact-info-section">
+        <h3>Ways to Connect</h3>
+        
+        <div class="contact-card">
+          <h4>Email</h4>
+          <p><a href="mailto:hello@bethsbotanicals.com">hello@bethsbotanicals.com</a></p>
+        </div>
+
+        <div class="contact-card">
+          <h4>Newsletter</h4>
+          <p>Stay updated with herbal wisdom, wellness tips, and upcoming events.</p>
+          <form action="https://formspree.io/f/mwkgyzbb" method="POST" class="newsletter-form">
+            <input type="email" name="email" placeholder="Your email address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="contact-card">
+          <h4>Current Offerings</h4>
+          <ul class="offerings-list">
+            <li>✨ Herbal wellness tips & guides</li>
+            <li>🌿 Custom herbal tea blends (coming soon)</li>
+            <li>🌱 Community workshops and plant walks</li>
+            <li>💚 Personalized herbal wellness consultations</li>
+          </ul>
+        </div>
+
+        <div class="contact-card">
+          <h4>Office Hours</h4>
+          <p>Available for consultations:</p>
+          <ul class="hours-list">
+            <li>Tuesday - Friday: 10am - 6pm</li>
+            <li>Saturday: 10am - 2pm</li>
+            <li>Sunday - Monday: Closed</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <section class="faq-section">
+      <h3>Frequently Asked Questions</h3>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h4>What can I expect from a consultation?</h4>
+          <p>During our consultation, we'll discuss your health goals, current wellness routine, and how herbal remedies might support your journey. Each session is personalized to your needs.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Do you ship your herbal products?</h4>
+          <p>Currently, I'm in the process of setting up my online store. Sign up for the newsletter to be the first to know when shipping becomes available!</p>
+        </div>
+        <div class="faq-item">
+          <h4>How can I join a workshop?</h4>
+          <p>Workshops are announced through the newsletter and typically require advance registration. Send me a message to learn about upcoming sessions.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Are your herbs organic?</h4>
+          <p>Yes! All herbs are either organically grown in my garden or ethically sourced from certified organic suppliers.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Beth's Herbal Journey | All rights reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
